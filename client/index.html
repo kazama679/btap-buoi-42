@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- 
+      tạo folder: ss59
+          npm create vite@latest
+          client
+          cd client
+          npm i
+          npm run dev
+          ******************
+          đi tạo folder server cùng cấp với client
+          bên trong folder server tạo file db.json
+          đang trỏ vào folder server
+          npm init -y => tạo 1 file package.json
+          npm i json-server@0.17.4
+          vào trong file package.json 
+          ==> scripts: "server":"json-server --w --port 8080 db.json"
+          npm run server
+          // lưu ý mình phải trỏ vào đúng thư mục làm việc
+          // để ý cú pháp khi viết
+    -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
